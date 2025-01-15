@@ -10,6 +10,7 @@ Useful links: https://www.geeksforgeeks.org/const-qualifier-in-c/
 Declare a static variable inside a function and call that function multiple times. Observe how the static variable retains its value between function calls.
 
 Useful links: https://www.geeksforgeeks.org/memory-layout-of-c-program/
+              https://www.geeksforgeeks.org/static-variables-in-c/
 
 volatile:
 

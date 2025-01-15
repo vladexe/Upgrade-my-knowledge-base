@@ -1,7 +1,9 @@
 
-const:
+**const**:
 
-Create a program where a variable is declared as const and attempt to modify its value. Observe what happens. Use a pointer to try modifying the value indirectly and see if it's allowed.
+Create a program where a variable is declared as const and attempt to modify its value. Observe what happens. Use a pointer to try modifying the value indirectly and see if it's allowed. ALso play with const pointers and const variables. 
+
+Useful links: https://www.geeksforgeeks.org/const-qualifier-in-c/
 
 volatile:
 

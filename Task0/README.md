@@ -5,14 +5,15 @@ Create a program where a variable is declared as const and attempt to modify its
 
 Useful links: https://www.geeksforgeeks.org/const-qualifier-in-c/
 
+**static**:
+
+Declare a static variable inside a function and call that function multiple times. Observe how the static variable retains its value between function calls.
+
+Useful links: https://www.geeksforgeeks.org/memory-layout-of-c-program/
+
 volatile:
 
 Write a program where a volatile variable's value is updated within a loop by an external function or hardware simulation. Demonstrate how volatile ensures the program doesn't optimize away repeated reads of the variable.
-
-static:
-
-Declare a static variable inside a function and call that function multiple times. Observe how the static variable retains its value between function calls.
-Use static in a file-scope variable and check its visibility in other files (multi-file program).
 
 inline:
 

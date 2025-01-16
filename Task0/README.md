@@ -39,3 +39,10 @@ Useful links: https://www.geeksforgeeks.org/restrict-keyword-c/
 Write a program with an inline function and call it multiple times in your code. Compare the output binary file and behavior with a regular function by checking whether the compiler substitutes the function body directly.
 
 Useful links: https://www.geeksforgeeks.org/inline-function-in-c/
+
+**extern**
+
+Write a program with multiple files with declaring function and variable as extern and use it from different files.
+
+Useful links: https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/
+

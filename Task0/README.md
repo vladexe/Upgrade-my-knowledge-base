@@ -1,3 +1,4 @@
+***Specifier in C***
 
 **const**:
 
@@ -12,9 +13,12 @@ Declare a static variable inside a function and call that function multiple time
 Useful links: https://www.geeksforgeeks.org/memory-layout-of-c-program/
               https://www.geeksforgeeks.org/static-variables-in-c/
 
-volatile:
+**volatile**:
 
 Write a program where a volatile variable's value is updated within a loop by an external function or hardware simulation. Demonstrate how volatile ensures the program doesn't optimize away repeated reads of the variable.
+
+Useful links: https://www.geeksforgeeks.org/understanding-volatile-qualifier-c-set-1-introduction/
+              https://www.geeksforgeeks.org/understanding-volatile-qualifier-in-c/
 
 inline:
 

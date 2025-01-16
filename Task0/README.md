@@ -1,4 +1,4 @@
-***Specifier in C***
+<h1>Specifiers in C</h1>
 
 **const**:
 
@@ -20,11 +20,14 @@ Write a program where a volatile variable's value is updated within a loop by an
 Useful links: https://www.geeksforgeeks.org/understanding-volatile-qualifier-c-set-1-introduction/
               https://www.geeksforgeeks.org/understanding-volatile-qualifier-in-c/
 
-inline:
-
-Write a program with an inline function and call it multiple times in your code. Compare the output and behavior with a regular function by checking whether the compiler substitutes the function body directly.
-
-register:
+**register**:
 
 Declare a variable as register and use it in a loop with heavy computations. Compare its performance to a normal variable.
 Check if you can take the address of a register variable (hint: try using the & operator).
+
+Useful links: https://www.geeksforgeeks.org/understanding-register-keyword/
+              
+
+inline:
+
+Write a program with an inline function and call it multiple times in your code. Compare the output and behavior with a regular function by checking whether the compiler substitutes the function body directly.

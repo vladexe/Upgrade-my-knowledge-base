@@ -27,6 +27,12 @@ Check if you can take the address of a register variable (hint: try using the & 
 
 Useful links: https://www.geeksforgeeks.org/understanding-register-keyword/
               
+**restrict**:
+
+Write two versions of a function: One with restrict pointers.
+One without restrict. Compare their performance for large arrays using clock().
+
+Useful links: https://www.geeksforgeeks.org/restrict-keyword-c/
 
 inline:
 

@@ -56,19 +56,19 @@ int main(void){
                 return 1;
         }
 	if (pthread_join(t1, NULL)) {
-                perror("Issue during create thread 1");
+                perror("Issue during join thread 1");
                 return 1;
         }
         if (pthread_join(t2, NULL)) {
-                perror("Issue during create thread 2");
+                perror("Issue during join thread 2");
                 return 1;
         }
         if (pthread_join(t3, NULL)) {
-                perror("Issue during create thread 3");
+                perror("Issue during join thread 3");
                 return 1;
         }
         if (pthread_join(t4, NULL)) {
-                perror("Issue during create thread 4");
+                perror("Issue during join thread 4");
                 return 1;
         }
 

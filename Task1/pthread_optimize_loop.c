@@ -33,7 +33,7 @@ int main(void){
     // and one more loop for joining
     for(int i = 0; i < 4; i++){
         if (pthread_join(ta[i], NULL)) {
-                perror("Issue during create thread");
+                perror("Issue during join thread");
                 return 1;
         }
     }

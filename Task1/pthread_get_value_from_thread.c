@@ -34,7 +34,7 @@ int main(void){
     // and one more loop for joining
     for(int i = 0; i < 4; i++){
         if (pthread_join(ta[i], (void **)&result)) {
-                perror("Issue during create thread");
+                perror("Issue during join thread");
                 return 1;
         }
         	printf("\nDice value for thread %d: %d\n",i, *result);

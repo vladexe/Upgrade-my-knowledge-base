@@ -4,7 +4,9 @@
 the form of [ 0.1234]. Reboot. From your system console, interrupt GRUB and add 
 the option apic=debug to the kernel line. Continue with the bootup.After booting, 
 log in and see if dmesg output now looks different. Is there now more apic output?
-
+![APIC Output](apic.png)
+and
+![APIC Debug Output](apic_debug.png)
 Using
 https://wiki.centos.org/HowTos/Grub2, or another appropriate distro, make a custom GRUB entry that is the same
 as your current kernel’s entry, but with some changes:
@@ -17,9 +19,22 @@ command line has initcall_debug.
 
 ===============================================================================
 
-2. Interrupt GRUB, and choose your original kernel entry. At the end of the vmlinuz line, add init=/bin/bash and
-boot. What happened? Turn the power off and on, interrupt GRUB again, and this time, put rdinit=/bin/sh at the
+2. Interrupt GRUB, and choose your original kernel entry. At the end of the vmlinuz line, add init=/bin/bash and boot. What happened?
+
+![Init_BIN_BASH](init-bin-bash_grub.png)
+
+**One interesting  thing that I should disable 'quite' and 'splash' option because console did not start**
+
+![Init_BIN_BASH_console](init-bin-bash.png)
+
+
+Turn the power off and on, interrupt GRUB again, and this time, put rdinit=/bin/sh at the
 end and boot. What happens now?
+
+![Rdinit_BIN_SH](rdinit-bin-sh_grub.png)
+
+![Rdinit_BIN_SH_console](rdinit-bin-sh.png)
+
 Reset your VM back into your full Linux environment.
 
 ===============================================================================
@@ -34,7 +49,6 @@ lrwxrwxrwx 1 root root 0 лют 22 13:12 /proc/1/exe -> /usr/lib/systemd/systemd
 ===============================================================================
 
 4. "Rebooting from Custom init"
-
 
 ===============================================================================
 
